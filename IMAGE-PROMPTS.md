@@ -2,7 +2,7 @@
 
 Generated with the built-in Image Generation tool on 17 October 2026. These images illustrate a visual target; they are not screenshots of a built game or previews of the linked asset packs.
 
-+## last-light
+## last-light
 
 Use case: stylized-concept. Asset type: original landscape concept image for an indie 3D game pitch website. Create one polished wide 16:9 image, no collage, no words, no lettering, no logo, no HUD. Art direction: achievable low-poly 3D indie game, simple faceted meshes, strong composition, atmospheric lighting, appealing restrained detail. This is original concept art, not a screenshot or replica of any asset pack. Game: Last Light Courier. A first-person forest delivery adventure where you carry a golden lantern between woodland camps before dusk. View from slightly above and behind a small hooded courier with satchel holding a lantern on a winding path; warm glowing campsite in distance. Massive stylized dark teal pine trees, rounded faceted rocks, ferns, a narrow footbridge, small creek, specks of fireflies, apricot sunset fog. Beautiful contrast of amber lanterns and deep emerald forest. Clear readable traversable path, intimate contained environment. Cinematic landscape composition.
 
