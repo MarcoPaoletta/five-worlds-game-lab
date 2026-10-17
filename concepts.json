@@ -1,0 +1,67 @@
+[
+  {
+    "id": "last-light", "title": "Last Light Courier", "genre": "Adventure", "tagline": "A little light. A long way home.",
+    "pitch": "Carry the last lantern through a darkening forest, delivering supplies and relighting camps before your flame burns out.",
+    "hook": "Your light is both your compass and your countdown. Taking a shortcut saves time, but the safe route has fuel.",
+    "camera": "First person", "difficulty": "Approachable", "scope": "One forest trail", "color": "#d6ed99",
+    "loop": ["Pick up a delivery and fill your lantern.", "Choose a route through the forest and manage your fuel.", "Reach a camp, relight its beacon, and unlock the next delivery."],
+    "mvp": "One compact woodland loop, three camps, three deliveries, a fuel meter, and one win/lose screen. Use static camps instead of animated NPCs.",
+    "custom": "Lantern model and light, parcel, camp markers, interaction prompts, fuel logic, route layout, and sound. The third-person courier in the concept art is illustrative; the prototype uses a first-person camera.",
+    "lesson": "Player movement, raycast interaction, lighting, UI signals, and a simple game state.",
+    "risk": "Night lighting must keep the path readable on small screens. Start with a short route and soft ambient light.",
+    "video": "From greybox forest to glowing delivery route: a clear before-and-after reveal, with a final low-fuel run.",
+    "assets": ["nature", "survival"], "alt": "A lantern-carrying courier follows an amber-lit trail through a teal low-poly forest."
+  },
+  {
+    "id": "orbit-salvage", "title": "Orbit Salvage", "genre": "Puzzle", "tagline": "One battery. A whole base to wake up.",
+    "pitch": "Pilot a repair drone around a silent moon base, moving scarce power cells between machines to bring the rescue beacon online.",
+    "hook": "There is never enough power for everything at once. The puzzle is deciding what can switch off so something else can turn on.",
+    "camera": "Isometric", "difficulty": "Intermediate", "scope": "Three puzzle rooms", "color": "#9dcaf2",
+    "loop": ["Inspect a broken section of the base.", "Carry a cell, power a machine, and open a new route.", "Reclaim cells and reroute power until the beacon activates."],
+    "mvp": "One exterior base split into three puzzle areas, two movable cells, three machine types, and a final beacon. Hand-author every puzzle.",
+    "custom": "A primitive drone, cell props, cable visuals, power-state materials, puzzle logic, interactions, and audio. Build the ground from simple meshes.",
+    "lesson": "Object pickup, reusable interactables, state machines, puzzle dependencies, and emissive materials.",
+    "risk": "Prevent softlocks by allowing cells to be recovered or adding a reset button for the current puzzle.",
+    "video": "A dead base lights up piece by piece. Show the power graph on screen as the puzzle is solved.",
+    "assets": ["space"], "alt": "An orange repair drone moves a glowing power cell between modules on a small lunar base."
+  },
+  {
+    "id": "midnight-garden", "title": "Midnight Groundskeeper", "genre": "Cozy", "tagline": "Even ghosts like a tidy garden.",
+    "pitch": "Spend the night tending a tiny haunted cemetery: sweep paths, water spectral flowers, and fulfill gentle requests from its ghostly residents.",
+    "hook": "Every little chore makes the graveyard warmer and friendlier, turning a spooky place into somewhere you want to stay.",
+    "camera": "First person", "difficulty": "Approachable", "scope": "One cemetery", "color": "#c7b2f4",
+    "loop": ["Read a ghost's small request.", "Use the right tool to clean, water, or decorate.", "Earn a glowing flower and bring color back to the cemetery."],
+    "mvp": "One enclosed cemetery, two tools, six chore spots, three ghost requests, and a single-night completion screen. Use progress bars for cleaning.",
+    "custom": "Simple sheet ghosts, broom and watering can, flower effects, task UI, tool animations, and request logic. Ghosts can be mesh primitives with a bobbing animation.",
+    "lesson": "Interaction targets, tool switching, progress feedback, task tracking, and environmental storytelling.",
+    "risk": "Chores need satisfying feedback. Build one complete cleaning interaction before adding more tasks.",
+    "video": "A spooky-to-cozy transformation with an immediate visual payoff, ideal for a compact devlog.",
+    "assets": ["halloween"], "alt": "Friendly sheet ghosts float between candlelit pumpkins and headstones in a violet cemetery."
+  },
+  {
+    "id": "pocket-post", "title": "Pocket Post", "genre": "Arcade", "tagline": "Tiny town. Very urgent parcels.",
+    "pitch": "Zip a tiny delivery car through a toy-sized town, chaining parcel drops into one perfect route before the shift ends.",
+    "hook": "Speed helps, but a clever route wins. String deliveries together to keep your combo alive.",
+    "camera": "Elevated chase", "difficulty": "Intermediate", "scope": "One town block", "color": "#f5c17d",
+    "loop": ["Collect a batch of parcels from the depot.", "Choose a delivery order and drive to marked drop points.", "Chain quick deliveries, bank a score, and retry for a better route."],
+    "mvp": "One car, one small loop of streets, five delivery points, a 90-second timer, and a score screen. Start with stationary scenery and no traffic AI.",
+    "custom": "Arcade car controller, chase camera, parcel and mailbox props, delivery zones, combo UI, road layout, and sound. Recolor a pack car to create the courier vehicle.",
+    "lesson": "Movement and steering, camera smoothing, trigger zones, timers, scoring, and reset flow.",
+    "risk": "Vehicle handling takes tuning. Use a simple arcade body with grounded movement before attempting realistic suspension.",
+    "video": "An instantly readable challenge: can you deliver all five parcels in 90 seconds? Show the route and final combo.",
+    "assets": ["cars", "streets", "buildings"], "alt": "A mustard yellow parcel car drifts around a sunny pastel town corner."
+  },
+  {
+    "id": "cloudline", "title": "Cloudline", "genre": "Platformer", "tagline": "Miss a jump. Find your flow.",
+    "pitch": "Leap across floating islands and ride moving platforms, collecting wind rings on a short skyward course built for satisfying retries.",
+    "hook": "An easy route gets you home; a daring route collects every ring. Master the same small level instead of exploring a huge world.",
+    "camera": "Third person", "difficulty": "Intermediate", "scope": "One obstacle course", "color": "#a9e2d1",
+    "loop": ["Read the next island and time a jump.", "Ride platforms, collect rings, and reach a checkpoint.", "Finish the course, then retry for fewer falls and a faster time."],
+    "mvp": "One course with 12 islands, one moving-platform type, two checkpoints, ten rings, and a finish timer. Use the pack's animated character for the first build.",
+    "custom": "Jump controller, checkpoint system, moving-platform logic, floating-island composition, ring pickups, and UI. The orange robot in the concept art is an optional custom skin, not an included model.",
+    "lesson": "Character movement, jump forgiveness, moving platforms, camera collision, checkpoints, and collectibles.",
+    "risk": "Camera and jump feel are the main work. Tune a three-platform greybox before dressing the entire course.",
+    "video": "Turn three grey cubes into a sky-island course, then finish with a clean no-fall run.",
+    "assets": ["platformer"], "alt": "A tiny orange robot leaps across grassy floating islands in a pastel cloud-filled sky."
+  }
+]
